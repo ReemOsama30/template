@@ -1,3 +1,8 @@
+:root{
+    --main--color:#81689D
+
+}
+
 body{
    font-family: "Open Sans", sans-serif;   
 }
@@ -49,6 +54,48 @@ font-size: 15px;
 .header_area .links  li{
     display: inline-block;
 margin-left:10px ;
+}
+
+.header_area .links  li a{
+color: white;
+text-decoration: none;
+transition: .3s;
+
+}
+
+.header_area .links  li a:hover,
+.header_area .links  li a.Active{
+
+color: var(--main--color);
+
+
+}
+
+
+.introduction_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+
+.introduction_text h1{
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+.introduction_text p{
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 0;
+}
+
+.introduction_text h1 span{
+    color: var(--main--color);
 }
 
 /* end landing page */
