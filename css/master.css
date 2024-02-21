@@ -1,0 +1,54 @@
+body{
+   font-family: "Open Sans", sans-serif;   
+}
+
+/* start landing page */
+.landing_page{
+    min-height: 100vh;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.landing_page .overlay{
+    background-color: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.header_area{
+    position: relative;
+    z-index: 2;
+    color: white;
+    display: flex;
+    padding: 10px;
+
+
+}
+
+.header_area .logo{
+    width: 300px;
+    padding: 15px;
+
+}
+
+.header_area .links{
+ list-style: none;
+width: 100%;
+text-align: right;
+padding-left: 0;
+padding-right: 20px;
+font-size: 15px;
+}
+
+.header_area .links  li{
+    display: inline-block;
+margin-left:10px ;
+}
+
+/* end landing page */
