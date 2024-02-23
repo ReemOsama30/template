@@ -7,6 +7,41 @@ body{
    font-family: "Open Sans", sans-serif;   
 }
 
+/* start setting box  */
+.settingBox{
+    position: fixed;   
+    left: -180px;
+    top: 0;
+    background-color: white;
+    width: 180px;
+    z-index: 1000;
+    min-height: 1000vh;
+    transition: .3s;
+ 
+}
+.settingBox .open{
+
+    left:0;
+}
+.settingBox .fa-gear{
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    right: -30px;
+    padding: 8px 0px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.settingBox .setting-container{
+
+
+}
+/* end setting box  */
+
+
+
 /* start landing page */
 .landing_page{
     min-height: 100vh;
